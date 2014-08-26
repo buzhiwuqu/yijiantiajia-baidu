@@ -1,0 +1,2 @@
+javascript:((function(s, d, e) {var u=location;var f = 'http://s.share.baidu.com?click=1&to=bdhome&from=addtobaidu&url='+e(u.href)+'&title='+e(d.title)+'&uid=&type=text&pic=&key=&sign=on&desc=&comment=&searchPic=&relatedUid=&l=&linkid=&sloc=&_t='+new Date().getTime();function a() {if (!window.open(f, 'bdshare', 'toolbar=0,status=0,resizable=1,width=700,height=450,left='+(s.width - 700) / 2+',top='+(s.height - 650) / 2)) u.href = f;};
+if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0);else a();})(screen, document, encodeURIComponent));
